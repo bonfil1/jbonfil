@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Jose Angel Bonfil Evia | Website</title>
+        <meta name="keywords" content="jose angel bonfil, bonfil, evia, web development, php, mysql, tabasco, tabasco villahermosa">
+        <meta name="description" content="Desarrollador web tabasqueño, mexicano y amante de los videojuegos">
 
         <link href="/static/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="/static/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
