@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PHP</title>
+        <title>Jose Angel Bonfil Evia</title>
 
-        <link href="static/css/site.css" type="text/css" />
+        <link rel="stylesheet" href="static/css/site.css" type="text/css" />
     </head>
     <body>
-        <header></header>
+        <header>
+
+        </header>
 
         <div class="wrapper">
-            <h1>Hola</h1>
+            <h1>Site under development</h1>
         </div>
 
-        <footer></footer>
+        <footer>
+
+        </footer>
     </body>
 </html>
