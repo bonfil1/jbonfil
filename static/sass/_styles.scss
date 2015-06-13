@@ -1,0 +1,123 @@
+/*
+ *  Jose Angel Bonfil Evia
+ *  This my website developed by myself :)
+ */
+$main-color: #fff;
+$fonts-color: #000;
+$fonts-header-hover: #27A8DB;
+$fonts-blog-post: #424242;
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
+
+  header {
+    width: 100%;
+    height: 51px;
+
+    .inner-header {
+      width: 960px;
+      margin: 0 auto;
+
+      ul {
+        list-style: none;
+        display: inline-block;
+
+        li {
+          float: left;
+
+          a {
+            width: 100px;
+            height: 41px;
+            padding: 10px;
+            line-height: 38px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 0.7em;
+            cursor: pointer;
+            color: $fonts-color;
+          }
+        }
+
+        li a:hover {
+          color: $fonts-header-hover;
+        }
+      }
+    }
+  }
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+
+    h1 {
+      width: 190px;
+      font-size: 2.2em;
+      padding: 10px;
+      margin: 0 auto;
+    }
+
+    .col-left {
+      float: left;
+      margin-top: 30px;
+      width: 75%;
+      padding-right: 10px;
+
+      .post.img {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 5px;
+        }
+
+        p {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          font-size: 13px;
+          line-height: 23px;
+          color: $fonts-blog-post;
+        }
+
+        a {
+          margin-top: 5px;
+          width: 100px;
+          margin: 0 auto;
+          color: $fonts-header-hover;
+        }
+      }
+    }
+    .col-right {
+      float: right;
+      margin-top: 30px;
+      width: 25%;
+    }
+  }
+
+  footer {
+    width: 100%;
+    padding: 16px 0 28px;
+
+    .inner-footer {
+      width: 960px;
+      margin: 0 auto;
+      p {
+        float: right;
+        font-size: 11px;
+      }
+    }
+  }
+
+  a:hover, a:link, a:visited {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,192 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/joseangelbonfilevia/.rvm/gems/ruby-2.1.4/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+ *  Custom styles
+ */
+/*
+ *  Jose Angel Bonfil Evia
+ *  This my website developed by myself :)
+ */
+/* line 10, ../sass/_styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+/* line 16, ../sass/_styles.scss */
+body header {
+  width: 100%;
+  height: 51px;
+}
+/* line 20, ../sass/_styles.scss */
+body header .inner-header {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 24, ../sass/_styles.scss */
+body header .inner-header ul {
+  list-style: none;
+  display: inline-block;
+}
+/* line 28, ../sass/_styles.scss */
+body header .inner-header ul li {
+  float: left;
+}
+/* line 31, ../sass/_styles.scss */
+body header .inner-header ul li a {
+  width: 100px;
+  height: 41px;
+  padding: 10px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  cursor: pointer;
+  color: #000;
+}
+/* line 44, ../sass/_styles.scss */
+body header .inner-header ul li a:hover {
+  color: #27A8DB;
+}
+/* line 51, ../sass/_styles.scss */
+body .wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 5px;
+  overflow: hidden;
+}
+/* line 57, ../sass/_styles.scss */
+body .wrapper h1 {
+  width: 190px;
+  font-size: 2.2em;
+  padding: 10px;
+  margin: 0 auto;
+}
+/* line 64, ../sass/_styles.scss */
+body .wrapper .col-left {
+  float: left;
+  margin-top: 30px;
+  width: 75%;
+  padding-right: 10px;
+}
+/* line 70, ../sass/_styles.scss */
+body .wrapper .col-left .post.img {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+/* line 77, ../sass/_styles.scss */
+body .wrapper .col-left .post.img img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+/* line 83, ../sass/_styles.scss */
+body .wrapper .col-left .post.img p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 23px;
+  color: #424242;
+}
+/* line 91, ../sass/_styles.scss */
+body .wrapper .col-left .post.img a {
+  margin-top: 5px;
+  width: 100px;
+  margin: 0 auto;
+  color: #27A8DB;
+}
+/* line 99, ../sass/_styles.scss */
+body .wrapper .col-right {
+  float: right;
+  margin-top: 30px;
+  width: 25%;
+}
+/* line 106, ../sass/_styles.scss */
+body footer {
+  width: 100%;
+  padding: 16px 0 28px;
+}
+/* line 110, ../sass/_styles.scss */
+body footer .inner-footer {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 113, ../sass/_styles.scss */
+body footer .inner-footer p {
+  float: right;
+  font-size: 11px;
+}
+/* line 120, ../sass/_styles.scss */
+body a:hover, body a:link, body a:visited {
+  text-decoration: none;
+}
