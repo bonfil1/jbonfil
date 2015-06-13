@@ -17,7 +17,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">CV</a></li>
+                    <li><a href="mx.linkedin.com/in/josebonfi" target="_blank">CV</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
