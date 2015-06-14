@@ -45,6 +45,14 @@
         </div>
 
         <footer>
+            <div class="social">
+                <ul>
+                    <li class="social_item fb"><a href="#">fb</a></li>
+                    <li class="social_item tw"><a href="#">tw</a></li>
+                    <li class="social_item li"><a href="#">li</a></li>
+                    <li class="social_item ig"><a href="#">in</a></li>
+                </ul>
+            </div>
             <div class="inner-footer">
                 <p>&copy; 2015 - Jose A. Bonfil Evia | All Rights Reserved.</p>
             </div>

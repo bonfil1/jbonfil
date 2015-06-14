@@ -11,10 +11,10 @@ Error: File to import not found or unreadable: compass/reset.
 5: 
 6: @import "compass/reset";
 7: 
-8: /*
-9:  *  Custom styles
-10:  *\/
-11: @import "styles";
+8: @import "susy";
+9: 
+10: 
+11: 
 
 Backtrace:
 screen.scss:6
@@ -60,4 +60,4 @@ screen.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A        Load paths:\A          \A         on line 6 of screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";\A 7: \A 8: /*\A 9:  *  Custom styles\A 10:  */\A 11: @import \"styles\";"; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A        Load paths:\A          \A         on line 6 of screen.scss\A \A 1: /* Welcome to Compass.\A 2:  * In this file you should write your main styles. (or centralize your imports)\A 3:  * Import this file using the following HTML or equivalent:\A 4:  * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\A 5: \A 6: @import \"compass/reset\";\A 7: \A 8: @import \"susy\";\A 9: \A 10: \A 11: "; }
