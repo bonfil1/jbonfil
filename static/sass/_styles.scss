@@ -7,6 +7,12 @@ $fonts-color: #000;
 $fonts-header-hover: #27A8DB;
 $fonts-blog-post: #424242;
 
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
 
   margin: 0;
@@ -18,7 +24,8 @@ body {
     height: 51px;
 
     .inner-header {
-      width: 960px;
+      // susy grids container
+      @include container;
       margin: 0 auto;
 
       ul {
@@ -49,10 +56,10 @@ body {
   }
 
   .wrapper {
-    width: 960px;
-    margin: 0 auto;
-    padding: 5px;
+    // susy grids container
+    @include container;
     overflow: hidden;
+    padding: 5px 10px;
 
     h1 {
       width: 190px;
@@ -62,9 +69,10 @@ body {
     }
 
     .col-left {
-      float: left;
+      // Susy main col
+      @include span(8);
+
       margin-top: 30px;
-      width: 75%;
       padding-right: 10px;
 
       .post.img {
@@ -97,15 +105,35 @@ body {
       }
     }
     .col-right {
-      float: right;
+
       margin-top: 30px;
-      width: 25%;
+      // Susy side col
+      @include span(4 last);
     }
   }
 
+  .wrapper:after {
+    clear: both;
+    display: block;;
+  }
+
   footer {
-    width: 100%;
+    // susy grids container
+    @include container;
     padding: 16px 0 28px;
+
+    .social {
+      padding: gutter();
+//      @include clearfix;
+
+      .social_item {
+        @include span(1 of 4);
+
+        &:last-child {
+          @include last;
+        }
+      }
+    }
 
     .inner-footer {
       width: 960px;
