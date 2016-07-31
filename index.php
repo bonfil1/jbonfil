@@ -24,19 +24,19 @@
         </header>
 
         <div class="wrapper">
-            <h1>Jose Angel Bonfil Evia Site</h1>
+            <h1>Jose Angel Bonfil Evia</h1>
 
             <div class="col-left">
                 <!-- Posts section -->
 
                 <div class="post img full">
-                    <img src="http://i.4cdn.org/wg/1433309373027.jpg" alt="Blog post">
+                    <img src="web/img/1.jpg" alt="Blog post">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed orci ac ligula aliquam sollicitudin. Quisque accumsan lacus vitae nulla dictum vulputate. Integer ac magna lorem. Nulla sit amet accumsan turpis. Suspendisse sed metus eu tortor laoreet luctus. Sed tempus sed nibh sagittis finibus. Donec non commodo velit. Nullam a imperdiet nibh. Nulla sodales nisl nec felis varius consequat.</p>
                     <a href="#" class="blog-entry">Read more</a>
                 </div>
 
                 <div class="post img full">
-                    <img src="http://i.4cdn.org/wg/1433427056864.jpg" alt="Blog post">
+                    <img src="web/img/2.jpg" alt="Blog post">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed orci ac ligula aliquam sollicitudin. Quisque accumsan lacus vitae nulla dictum vulputate. Integer ac magna lorem. Nulla sit amet accumsan turpis. Suspendisse sed metus eu tortor laoreet luctus. Sed tempus sed nibh sagittis finibus. Donec non commodo velit. Nullam a imperdiet nibh. Nulla sodales nisl nec felis varius consequat.</p>
                     <a href="#" class="blog-entry">Read more</a>
                 </div>

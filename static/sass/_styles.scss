@@ -62,10 +62,11 @@ body {
     padding: 5px 10px;
 
     h1 {
-      width: 190px;
+      width: 100%;
       font-size: 2.2em;
       padding: 10px;
       margin: 0 auto;
+      text-align: center;
     }
 
     .col-left {
@@ -120,7 +121,7 @@ body {
   footer {
     // susy grids container
     @include container;
-    padding: 16px 0 28px;
+    padding: 16px 0 0;
 
     .social {
       padding: gutter();
@@ -137,7 +138,8 @@ body {
 
     .inner-footer {
       width: 960px;
-      margin: 0 auto;
+      height: 45px;
+      padding: 15px 0;
       p {
         float: right;
         font-size: 11px;
