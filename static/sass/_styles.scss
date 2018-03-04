@@ -2,7 +2,7 @@
  *  Jose Angel Bonfil Evia
  *  This my website developed by myself :)
  */
-$main-color: #fff;
+$main-color: #999;
 $fonts-color: #000;
 $fonts-header-hover: #27A8DB;
 $fonts-blog-post: #424242;
@@ -11,139 +11,35 @@ $fonts-blog-post: #424242;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: #ffffff;
 }
 
 body {
 
   margin: 0;
   padding: 0;
+  background-color: rgb(55, 60, 63);
   font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
 
   header {
-    width: 100%;
-    height: 51px;
-
     .inner-header {
       // susy grids container
       @include container;
-      margin: 0 auto;
-
-      ul {
-        list-style: none;
-        display: inline-block;
-
-        li {
-          float: left;
-
-          a {
-            width: 100px;
-            height: 41px;
-            padding: 10px;
-            line-height: 38px;
-            text-align: center;
-            text-transform: uppercase;
-            font-size: 0.7em;
-            cursor: pointer;
-            color: $fonts-color;
-          }
-        }
-
-        li a:hover {
-          color: $fonts-header-hover;
-        }
-      }
     }
   }
 
   .wrapper {
     // susy grids container
     @include container;
-    overflow: hidden;
-    padding: 5px 10px;
-
-    h1 {
-      width: 100%;
-      font-size: 2.2em;
-      padding: 10px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
     .col-left {
       // Susy main col
-      @include span(8);
-
-      margin-top: 30px;
-      padding-right: 10px;
-
-      .post.img {
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid gray;
-        margin-bottom: 25px;
-        padding-bottom: 25px;
-
-        img {
-          width: 100%;
-          height: auto;
-          margin-bottom: 5px;
-        }
-
-        p {
-          margin-top: 5px;
-          margin-bottom: 5px;
-          font-size: 13px;
-          line-height: 23px;
-          color: $fonts-blog-post;
-        }
-
-        a {
-          margin-top: 5px;
-          width: 100px;
-          margin: 0 auto;
-          color: $fonts-header-hover;
-        }
-      }
+      @include span(4 first);
     }
     .col-right {
-
-      margin-top: 30px;
       // Susy side col
-      @include span(4 last);
-    }
-  }
-
-  .wrapper:after {
-    clear: both;
-    display: block;;
-  }
-
-  footer {
-    // susy grids container
-    @include container;
-    padding: 16px 0 0;
-
-    .social {
-      padding: gutter();
-//      @include clearfix;
-
-      .social_item {
-        @include span(1 of 4);
-
-        &:last-child {
-          @include last;
-        }
-      }
-    }
-
-    .inner-footer {
-      width: 960px;
-      height: 45px;
-      padding: 15px 0;
-      p {
-        float: right;
-        font-size: 11px;
-      }
+      @include span(8 last);
+      position: relative;
+      padding: 40px 60px 60px 60px;
     }
   }
 

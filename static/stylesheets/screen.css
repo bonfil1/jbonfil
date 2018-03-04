@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,52 +24,52 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
 /* Changing Susy default global settings */
 /* Makes border-box properties */
-/* line 21, ../../../../../Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+/* line 21, ../../../../../../Library/Ruby/Gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -88,168 +88,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: #ffffff;
 }
 
-/* line 16, ../sass/_styles.scss */
+/* line 17, ../sass/_styles.scss */
 body {
   margin: 0;
   padding: 0;
+  background-color: #373c3f;
   font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
 }
-/* line 22, ../sass/_styles.scss */
-body header {
-  width: 100%;
-  height: 51px;
-}
-/* line 26, ../sass/_styles.scss */
+/* line 25, ../sass/_styles.scss */
 body header .inner-header {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
 }
-/* line 12, ../../../../../Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 body header .inner-header:after {
   content: " ";
   display: block;
   clear: both;
 }
 /* line 31, ../sass/_styles.scss */
-body header .inner-header ul {
-  list-style: none;
-  display: inline-block;
-}
-/* line 35, ../sass/_styles.scss */
-body header .inner-header ul li {
-  float: left;
-}
-/* line 38, ../sass/_styles.scss */
-body header .inner-header ul li a {
-  width: 100px;
-  height: 41px;
-  padding: 10px;
-  line-height: 38px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  cursor: pointer;
-  color: #000;
-}
-/* line 51, ../sass/_styles.scss */
-body header .inner-header ul li a:hover {
-  color: #27A8DB;
-}
-/* line 58, ../sass/_styles.scss */
 body .wrapper {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-  padding: 5px 10px;
 }
-/* line 12, ../../../../../Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 body .wrapper:after {
   content: " ";
   display: block;
   clear: both;
 }
-/* line 64, ../sass/_styles.scss */
-body .wrapper h1 {
-  width: 100%;
-  font-size: 2.2em;
-  padding: 10px;
-  margin: 0 auto;
-  text-align: center;
-}
-/* line 72, ../sass/_styles.scss */
+/* line 34, ../sass/_styles.scss */
 body .wrapper .col-left {
-  width: 66.10169%;
+  width: 32.20339%;
   float: left;
   margin-right: 1.69492%;
-  margin-top: 30px;
-  padding-right: 10px;
 }
-/* line 79, ../sass/_styles.scss */
-body .wrapper .col-left .post.img {
-  width: 100%;
-  text-align: center;
-  border-bottom: 1px solid gray;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
-}
-/* line 86, ../sass/_styles.scss */
-body .wrapper .col-left .post.img img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 5px;
-}
-/* line 92, ../sass/_styles.scss */
-body .wrapper .col-left .post.img p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 13px;
-  line-height: 23px;
-  color: #424242;
-}
-/* line 100, ../sass/_styles.scss */
-body .wrapper .col-left .post.img a {
-  margin-top: 5px;
-  width: 100px;
-  margin: 0 auto;
-  color: #27A8DB;
-}
-/* line 108, ../sass/_styles.scss */
+/* line 38, ../sass/_styles.scss */
 body .wrapper .col-right {
-  margin-top: 30px;
-  width: 32.20339%;
+  width: 66.10169%;
   float: right;
   margin-right: 0;
+  position: relative;
+  padding: 40px 60px 60px 60px;
 }
-/* line 116, ../sass/_styles.scss */
-body .wrapper:after {
-  clear: both;
-  display: block;
-}
-/* line 121, ../sass/_styles.scss */
-body footer {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px 0 0;
-}
-/* line 12, ../../../../../Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-body footer:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-/* line 126, ../sass/_styles.scss */
-body footer .social {
-  padding: 1.69492%;
-}
-/* line 130, ../sass/_styles.scss */
-body footer .social .social_item {
-  width: 21.05263%;
-  float: left;
-  margin-right: 5.26316%;
-}
-/* line 133, ../sass/_styles.scss */
-body footer .social .social_item:last-child {
-  float: right;
-  margin-right: 0;
-}
-/* line 139, ../sass/_styles.scss */
-body footer .inner-footer {
-  width: 960px;
-  height: 45px;
-  padding: 15px 0;
-}
-/* line 143, ../sass/_styles.scss */
-body footer .inner-footer p {
-  float: right;
-  font-size: 11px;
-}
-/* line 150, ../sass/_styles.scss */
+/* line 46, ../sass/_styles.scss */
 body a:hover, body a:link, body a:visited {
   text-decoration: none;
 }
