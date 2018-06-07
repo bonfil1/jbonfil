@@ -1,0 +1,69 @@
+/*
+ *  Jose Angel Bonfil Evia
+ *  This my website developed by myself :)
+ */
+$main-color: #e47a08;
+$main-color-rgb: rgb(228, 122, 8);
+$fonts-color: #fff;
+$fonts-header-hover: #27A8DB;
+$fonts-blog-post: #424242;
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: $fonts-color;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: $main-color-rgb;
+  font-family: "Helvetica Neue", helvetica, Arial, sans-serif;
+
+  header {
+    .inner-header {
+    }
+  }
+
+  .wrapper {
+    div.section.item {
+      padding: 40px 60px 60px 60px;
+
+      &.begining {
+        font-size: 1.8em;
+      }
+
+      h1 {
+        color: #000;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #000;
+      }
+    }
+  }
+
+  a:hover, a:link, a:visited {
+    text-decoration: none;
+  }
+
+  #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+  }
+
+  #fp-nav ul li a.active span,
+  .fp-slidesNav ul li a.active span,
+  #fp-nav ul li:hover a.active span,
+  .fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid #24221F;
+  }
+}
